@@ -1,4 +1,6 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
+
 import AboutHero from '../sections/aboutSections/AboutHero';
 import AboutStats from '../sections/aboutSections/AboutStats';
 import AboutBento from '../sections/aboutSections/AboutBento';

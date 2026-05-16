@@ -1,4 +1,6 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
+
 import ContactHero from '../sections/contactSections/ContactHero';
 import ContactMain from '../sections/contactSections/ContactMain';
 

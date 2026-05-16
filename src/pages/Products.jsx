@@ -1,4 +1,6 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
+
 import ProductHero from '../sections/productSections/ProductHero';
 import ProductGrid from '../sections/productSections/ProductGrid';
 import CustomKitStrip from '../sections/productSections/CustomKitStrip';
