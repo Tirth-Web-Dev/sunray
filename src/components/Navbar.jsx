@@ -46,7 +46,7 @@ const Navbar = () => {
               {isActive(item) && (
                 <motion.div
                   layoutId="pill"
-                  className="absolute inset-0 bg-amber-300 rounded-full"
+                  className="absolute inset-0 bg-blue-400 rounded-full"
                   transition={{ type: "spring", bounce: 0.25, duration: 0.5 }}
                 />
               )}
