@@ -4,10 +4,23 @@ import ContactMain from '../sections/contactSections/ContactMain';
 
 const Contact = () => {
     return (
-        <div>
+        <>
+        <Helmet>
+  <title>Contact Us | Sunray Energy</title>
+
+  <meta
+    name="description"
+    content="Contact Sunray Energy for solar installation kits, product inquiries, and renewable energy solutions."
+  />
+
+  <meta
+    name="keywords"
+    content="contact Sunray Energy, solar inquiry, solar installation support"
+  />
+</Helmet>
             <ContactHero />
             <ContactMain />
-        </div>
+        </>
     );
 };
 
